@@ -1046,7 +1046,7 @@ body{
         display: block;
         line-height: 50px;
         font-size: 30px;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 20px;
         z-index: 2;
