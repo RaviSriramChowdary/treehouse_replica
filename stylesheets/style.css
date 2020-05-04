@@ -36,7 +36,11 @@ body{
         top: 0;
         left: 0;
         background-color: #fff;
-        z-index: 10;
+        z-index: 1;
+    }
+
+    #hambtn{
+        display: none;
     }
     
     .topnavbar{
@@ -45,6 +49,20 @@ body{
         padding: 0 30px;
         margin: 0 auto;
         font-family:  gothambold;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    .ham{
+        display: none;
+    }
+
+    .topnavbar .midicon{
+        display: none;
+    }
+
+    .navbar-ul-ham{
+        display: none;
     }
     
     .navbar-ul{
@@ -708,15 +726,61 @@ body{
         top: 0;
         left: 0;
         background-color: #fff;
-        z-index: 10;
+        z-index: 1;
     }
     
     .topnavbar{
         position: relative;
         max-width: 1260px;
-        padding: 0 30px;
+        padding: 0 20px;
         margin: 0 auto;
+        height: 70px;
         font-family:  gothambold;
+        transition: 0.4s height;
+    }
+
+    #hambtn:checked ~ .nav-container .topnavbar{
+        height: 100vh;
+    }
+
+    #hambtn:checked ~ .nav-container .topnavbar .navbar-ul-ham{
+        display: block;
+        padding-top: 25px;
+    }
+
+    .nav-container .topnavbar .navbar-ul-ham :nth-child(1){
+        display: none;
+    }
+
+    .nav-container .topnavbar .navbar-ul-ham li{
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        font-size: 18px;
+        color: #7b8b8e;
+    }
+
+    .nav-container .topnavbar .navbar-ul-ham li:hover{
+        color: #424b4d;
+    }
+
+    .ham{
+        display: block;
+        line-height: 70px;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .topnavbar .midicon{
+        display: inline-block;
+        position: absolute;
+        top: 19px;
+        left: 50%;
+        transform: translateX(-50%);
     }
     
     .navbar-ul{
@@ -731,6 +795,7 @@ body{
         line-height: 70px;
         display: inline-block;
         margin-right: 30px;
+        margin-left: 100px;
         font-weight: bold;
         color: #7b8b8e;
         cursor: pointer;
@@ -740,10 +805,14 @@ body{
     }
     
     .navbar-ul li.logo-container{
-        position: absolute;
-        left: 0;
-        top: 17px;
-        line-height: 32px;
+        display: none;
+    }
+
+    .navbar-ul li:nth-child(2){
+        display: none;
+    }
+    .navbar-ul li:nth-child(3){
+        display: none;
     }
     
     .navbar-ul li.freetrial{
@@ -925,15 +994,71 @@ body{
         top: 0;
         left: 0;
         background-color: #fff;
-        z-index: 10;
+        z-index: 1;
     }
     
     .topnavbar{
         position: relative;
         max-width: 1260px;
+        height: 50px;
         padding: 0 30px;
         margin: 0 auto;
         font-family:  gothambold;
+        transition: 0.4s height;
+    }
+
+    #hambtn:checked ~ .nav-container .topnavbar{
+        height: 100vh;
+    }
+
+    #hambtn:checked ~ .nav-container .topnavbar .navbar-ul-ham{
+        display: block;
+        padding-top: 15px;
+    }
+
+    
+    .nav-container .topnavbar .navbar-ul-ham :nth-child(1){
+        display: block;
+        font-size: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid grey;
+    }
+
+    
+    .nav-container .topnavbar .navbar-ul :nth-child(4){
+        display: none;
+    }
+
+    .nav-container .topnavbar .navbar-ul-ham li{
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        font-size: 18px;
+        color: #7b8b8e;
+    }
+
+    .nav-container .topnavbar .navbar-ul-ham li:hover{
+        color: #424b4d;
+    }
+
+    .ham{
+        display: block;
+        line-height: 50px;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .topnavbar .midicon{
+        display: inline-block;
+        position: absolute;
+        top: 9px;
+        left: 50%;
+        transform: translateX(-50%);
     }
     
     .navbar-ul{
