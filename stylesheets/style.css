@@ -766,240 +766,38 @@ body{
     }
     
     .header{
-        margin-top: 70px;
-        background-image: linear-gradient(to bottom, rgba(48,56,83,0) 40%, #303853 60%, #303853 100%),url(../images/bg/header.jpg);
-        background-position-y: 0, -200px;
-        background-size: 100%, 100%;
-        background-attachment: fixed;
-        background-repeat: no-repeat , no-repeat;
-        padding: 80px 0 32px;
-    }
-    
-    .header .head-container{
-        width: 100%;
-        height: 100%;
+        padding-top: 48px;
     }
     
     .header .head-container .intro{
-        max-width: 1260px;
-        margin: 0 auto;
-        padding: 0 15px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
+        padding: 0 5px;
+        display: block;
     }
     
     .header .head-container .intro .learntocode{
-        width: 50%;
-        height: 100%;
-        color: white;
-        padding: 0 15px;
-        position: relative;
-        display: inline-block;
-        margin-bottom: 10px;
-    }
-    
-    .header .head-container .intro .learntocode .ltcreldiv{
-        
-    }
-    
-    .header .head-container .intro .learntocode .ltcreldiv .heading{
-        font-size: 36px;
-        line-height: 1.3;
-        margin-bottom: 15px;
         width: 100%;
-    }
-    
-    .header .head-container .intro .learntocode .ltcreldiv .tagline{
-        font-size: 28px;
-        line-height: 1.3;
-        margin-top: 15px;
-        font-family: gothambook;
-        font-weight: 300;
+        padding: 0 15px;
+        display: block;
+        margin-bottom: 34px;
     }
     
     .header .head-container .intro .signinbox{
-        height: 100%;
-        width: 50%;
-        display: inline-block;
-        padding: 0 15px;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont{
-        background-color: #fff;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .tryitforfree{
-        text-align: center;
-        padding: 20px;
-        font-size: 16px;
-        line-height: 1.6;
-        background-color: #edeff0;
-        color: #40484A;
-        margin: 0 0 30px;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .tryitforfree span{
-        font-family: gothamlight;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form{
-        padding: 0 24px 30px;
-        display: block;
-        font-size: 16px;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form .parts{
-        width: 50%;
-        display: inline-block;
-        padding: 0 6px;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form .parts label{
         width: 100%;
         display: block;
-        margin: 0 0 8px;
-        line-height: 1.3;
-        color: #40484A;
     }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form .parts input{
-        width: 100%;
-        display: block;
-        font-family: gothamlight;
-        font-weight: 600;
-        padding: 12px 16px;
-        margin: 0 0 24px;
-        border-radius: 4px;
-        border: 2px solid #d4d9dd;
-        font-size: 16px;
-        background-color: #f9fafa;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form div.cnfrm{
-        padding: 0 6px 16px;
-        line-height: 1.3;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form div.cnfrm .cnfrmcontent{
-        padding: 5px 0;
-        margin-bottom: 8px;
-        font-size: 14px;
-    }
-    
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form div.cnfrm .substcnfrm{
-        width: 16px;
-        height: 16px;
-        border: 2px solid #d4d9dd;
-        border-radius: 4px;
-        float: left;
-        position: relative;
-        top: 5px;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form div.cnfrm input{
-        display: none;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form div.cnfrm label{
-        font-size: 14px;
-        line-height: 1.3;
-        color: #4b5658;
-        margin-left: 25px;
-        padding: 5px 0;
-        display: block;
-        margin-bottom: 8px;
-        font-family: gothamlight;
-        font-weight: 900;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form .claimft{
-        border-top: 1px solid #d3d7d86b;
-        margin: 0 6px;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form .claimft .claimftcontainer{
-        line-height: 48px;
-        color: white;
-        padding: 0 32px;
-        border-radius: 4px;
-        margin-top: 24px;
-        display: block;
-        width: 100%;
-        font-size: 16px;
-        font-family: inherit;
-        border: 2px solid #387bab;
-        background-color: #387bab;
-    }
-    
-    .header .head-container .intro .signinbox .signinbox-cont .form .claimft .claimftcontainer .play{
-        margin: 0 0 0 10px ;
-    }
-    
-    
-    .header .head-container .adv{
-        max-width: 1260px;
-        padding: 0 15px;
-        margin: 64px auto 0;
-        display: block;
-        text-align: center;
-    }
-    
-    .header .head-container .adv .parts{
-        display: inline-block;
-        color: white;
-        margin: 0 24px;
-    }
-    
-    .header .head-container .adv .parts span:nth-child(odd){
-        font-size: 36px;
-        display: inline-block;
-        line-height: 1;
-        font-family: gothambook;
-        font-weight: 200;
-    }
-    
-    .header .head-container .adv .parts span:nth-child(even){
-        font-size: 18px;
-        font-family: gothamlight;
-        display: inline-block;
-        font-weight: 600;
-    }
-    
     .contentpage{
-        padding: 80px 0 40px;
-        background-image: url(../images/bg/contentpage.png);
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-color: #f9fafa;
+        padding: 80px 32px 10px;
     }
     
     .anglebar{
-        height: 188px;
+        height: 221px;
         transform-origin: 0 0;
         transform: rotate(-5deg);
         background-color: #fff;
     }
     
     .contentpage .parts{
-        max-width: 1260px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-    }
-    
-    
-    .contentpage .part1{
-        padding-top: 0;
-        padding-bottom: 80px;
-        border-bottom: 1px solid #d3d7d8;
+        padding: 0 5px 80px;
     }
     
     
@@ -1009,77 +807,29 @@ body{
     }
     
     .contentpage .part1 .videoholder{
-        width: 60%;
-        display: inline-block;
-        padding-left: 15px;
-        position: relative;
-    }
-    
-    
-    .contentpage .part1 .videoholder .video{
         width: 100%;
-    }
-    
-    .contentpage .part1 .svgcontainer{
-        display: inline-block;
-        position: absolute;
-        right: -264px;
-        bottom: 0;
-        width: 300px;
-    }
-    
-    .contentpage .part1 .svgcontainer .svg{
-        width: 100%;
-    }
-    
-    .contentpage .part1 .test{
-        width: 300px;
-        height: 409px;
-        border: 3px solid black;
+        display: block;
+        padding: 0 10px;
     }
     
     .contentpage .part1 .flexible{
-        width: 40%;
-        display: inline-block;
-        vertical-align: top;
-        padding-left: 48px;
+        width: 100%;
+        display: block;
+        padding-left: 0;
     }
     
     
     .contentpage .part1 .flexible .content{
-        width: 400px;
-    }
-    
-    .contentpage .part1 .flexible .content h4{
-        font-size: 28px;
-        line-height: 1.3;
-        color: #384047;
-        font-family: gothammed;
-        font-weight: 300;
-    }
-    
-    .contentpage .part1 .flexible .content p{
-        line-height: 1.6;
-        margin-top: 10px;
-        font-size: 16px;
-        font-family: gothambook;
-        font-weight: 100;
-        color: #7b8b8e;
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 24px;
     }
     
     .contentpage .part2 .supportive{
-        padding-left: 15px;
-        padding-right: 80px;
-    }
-    
-    .contentpage .part2 .supportive .imgholder{
-        max-width: 300px;
-        margin: 0 auto;
-        padding-top: 24px;
-    }
-    
-    .contentpage .part2 .supportive .imgholder img{
+        display: block;
         width: 100%;
+        padding-left: 10px;
+        padding-right: 0px;
     }
     
     .contentpage .part2 .valuable .imgholder{
@@ -1093,108 +843,15 @@ body{
     }
     
     .contentpage .part2 .valuable{
-        padding-left: 80px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 10px;
+        margin-top: 80px;
     }
     
     
     .contentpage .part2 .parting{
-        width: 50%;
-        display: inline-block;
-        vertical-align: top;
-    }
-    
-    .contentpage .part2 .parting h4{
-        font-size: 28px;
-        line-height: 1.3;
-        color: #384047;
-        font-family: gothammed;
-        font-weight: 300;
-    }
-    
-    .contentpage .part2 .parting p{
-        line-height: 1.6;
-        margin-top: 10px;
-        font-size: 16px;
-        font-family: gothambook;
-        font-weight: 100;
-        color: #7b8b8e;
-        margin-bottom: 20px;
-    }
-    
-    .partner{
-        position: relative;
-        bottom: 125px;
-        padding-bottom: 80px;
-    }
-    
-    .partner .content{
-        max-width: 1260px;
-        padding: 0 15px;
-        margin: 0 auto;
-    }
-    
-    .partner .content .heading{
-        font-size: 36px;
-        font-family: gothambook;
-        color: #384047;
-        line-height: 1.3;
-        margin-bottom: 64px;
-        text-align: center;
-    }
-    
-    .partner .content .companies{
-        text-align: center;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .partner .content .companies .names{
-        display: inline-block;
-        max-width: 300px;
-        padding: 0 24px;
-    }
-    
-    .partner .content .companies .names svg,.partner .content .companies .names img{
-        max-width: 100%;
-    }
-    
-    .challenge{
-        padding: 80px 0;
-        color: #576366;
-        text-align: center;
-        background-image: url(../images/challenge.jpg);
-        background-position: center;
-        background-size: cover;
-        margin-top: -60px;
-    }
-    
-    .challenge .heading{
-        font-size: 36px;
-        color: white;
-        margin: 15px 0;
-        line-height: 1.3;
-    }
-    
-    .challenge .text{
-        margin-bottom: 20px;
-        font-size: 20px;
-        line-height: 1.6;
-        color: white;
-        font-family: gothambook;
-    }
-    
-    .challenge a.button{
-        color: white;
-        background-color: #5fc580;
-        padding: 0 32px;
-        margin-bottom: 8px;
-        border: 2px solid #5fc580;
-        line-height: 48px;
-        height: 52px;
-        display: inline-block;
-        border-radius: 4px;
-        font-family: gothambold;
+        width: 100%;
+        display: block;
     }
     
     .footer{
@@ -1202,25 +859,23 @@ body{
     }
     
     .footer .content{
-        max-width: 1260px;
         margin: 0 auto;
-        padding: 0 15px;
+        padding: 0 5px;
     }
     
     .footer .content .parts{
         padding:  0 15px;
-        height: 100px;
-        display: inline-block;
+        display: block;
         font-family: gothambook;
-        vertical-align: top;
+        height: 100px;
     }
     
     .footer .content .part1{
-        width: 30%;
+        width: 100%;
     }
     
     .footer .content .part2{
-        width: 20%;
+        width: 100%;
     }
     
     .footer .content .parts ul {
@@ -1237,14 +892,17 @@ body{
         color: #7b8b8e;
         text-decoration: none;
     }
-    
+    .footer .content .follow{
+        height: fit-content;
+    }
     .footer .content .follow ul{
-        float: right;
+        float: none;
+        padding-top: 24px;
+        height: fit-content;
     }
     .footer .content .parts.comp .name{
         font-size: 14px;
         margin-top: 10px;
-        
     }
     
     .footer .content .follow ul li{
@@ -1253,10 +911,129 @@ body{
         margin: 0 3px;
     }
     .footer .content .follow ul li a{
-        display: inline-block;
+        display: block;
         font-size: 26px;
         color: rgba(0, 0, 0, 0.842);
     }
     
     
+}
+@media screen and (max-width: 680px){
+    .nav-container{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: 10;
+    }
+    
+    .topnavbar{
+        position: relative;
+        max-width: 1260px;
+        padding: 0 30px;
+        margin: 0 auto;
+        font-family:  gothambold;
+    }
+    
+    .navbar-ul{
+        width: 100%;
+        list-style-type: none;
+        font-size: 14px;
+        text-align: right;
+        position: relative;
+    }
+    
+    .navbar-ul li{
+        line-height: 50px;
+        display: inline-block;
+        margin-right: 30px;
+        font-weight: bold;
+        color: #7b8b8e;
+        cursor: pointer;
+    }
+    .navbar-ul li:hover{
+        color: #424b4d;
+    }
+    
+    .navbar-ul li.logo-container{
+        position: absolute;
+        left: 0;
+        line-height: 50px;
+    }
+    
+    .navbar-ul li.freetrial{
+        margin: 0;
+        font-weight: 500;
+    }
+    
+    .navbar-ul li.freetrial a{
+        color: #5fcf80;
+        border: 2px solid transparent;
+        line-height: 34px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s color;
+    }
+    
+    .navbar-ul li.freetrial a:hover{
+        color: #60a174;
+    }
+    
+    .header{
+        margin-top: 50px;
+        background-image: linear-gradient(to bottom, rgba(48,56,83,0) 40%, #303853 60%, #303853 100%),url(../images/bg/header.jpg);
+        background-size: cover,100%;
+        background-attachment: scroll;
+        background-position: top,top;
+        background-repeat: no-repeat , no-repeat;
+        background-color: #303853;
+    }
+        
+    .header .head-container .intro .signinbox .signinbox-cont .form .parts{
+        width: 100%;
+        display: block;
+        padding: 0 6px;
+    }
+    
+    .header .head-container .intro .signinbox .signinbox-cont .form .parts label{
+        width: 100%;
+        display: block;
+        margin: 0 0 8px;
+        line-height: 1.3;
+        color: #40484A;
+    }    
+    
+    .header .head-container .adv{
+        margin: 64px auto 0;
+        padding: 0;
+    }
+    
+    .header .head-container .adv .parts{
+        display: inline-block;
+        color: white;
+        margin: 0 24px 16px;
+    }
+    
+    .contentpage{
+        padding: 80px 32px 10px;
+    }
+    
+    .anglebar{
+        transform: rotate(0deg);
+    }
+    
+    .contentpage .part1 .videoholder{
+        padding: 0 2.5px;
+    }
+    
+
+    .challenge{
+        padding: 80px 24px;
+    }
+
+    .footer{
+        padding:48px 0;
+    }
 }
